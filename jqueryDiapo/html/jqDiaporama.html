@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Exercie Diaporama</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <style> </style>
+    </head>
+    <body>
+        <div class="container-fluid d-flex flex-column bd-highlight mb-3">
+            <p class="h2 text-center">Diaporama</p>
+            <div class ="text-center"><img class ="w-75" src="" id="photo" alt="Diaporama photo Ansel Adams"/></div>
+            <div class ="text-center" id ="bt_navigation">   
+                <button type ="button" id="bt_Start" class="btn btn-outline-secondary"> << </button>
+                <button type ="button" id="bt_Previous" class="btn btn-outline-primary"> &#124;< </button>
+                <button type ="button" id="bt_Pause" class="btn btn-outline-danger"> &#124;&#124; </button>
+                <label id="lbl_compteur" class="border border-dark rounded p-2"></label>
+                <button type ="button" id="bt_Play" class="btn btn-outline-success"> &#9658; </button>
+                <button type ="button" id="bt_Next" class="btn btn-outline-primary"> >&#124; </button>
+                <button type ="button" id="bt_End" class="btn btn-outline-secondary"> >> </button> 
+            </div>
+        </div> 
+        <script src ="../lib/jquery/jquery-3.3.1.js"></script>
+        <script src ="../JS/jqDiaporama.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

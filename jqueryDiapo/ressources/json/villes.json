@@ -1,0 +1,17 @@
+[
+    {
+        "ville": "Paris",
+        "codePostal": "75000",
+        "habitants": "2 000 000"
+    },
+    {
+        "ville": "Lyon",
+        "codePostal": "69000",
+        "habitants": "450 000"
+    },
+    {
+        "ville": "Marseille",
+        "codePostal": "13000",
+        "habitants": "800 000"
+    }
+]

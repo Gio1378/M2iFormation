@@ -1,0 +1,9 @@
+1;Tintin
+2;Milou
+3;Haddock
+4;Casta
+5;Castafiore
+6;Dupont
+7;Dupond
+8;Tournesol
+9;Rastapopoulos

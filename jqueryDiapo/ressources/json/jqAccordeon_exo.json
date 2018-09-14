@@ -1,0 +1,17 @@
+{
+  "cinema": [
+    {"nom": "Sean Penn"},
+    {"nom": "Charlotte Gainsbourg"},
+    {"nom": "Penelope Cruz"}
+  ],
+  "theatre":[
+    {"piece": "L'avare"},
+    {"piece": "Roméo et Juliette"},
+    {"piece": "Pix personnages en quête d'acteur"}
+  ],
+  "litterature":[
+    {"titre": "Flaubert"},
+    {"titre": "Zola"},
+    {"titre": "Goncourt"}
+  ]
+}
