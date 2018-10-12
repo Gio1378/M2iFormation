@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Catalogue</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Les liens CSS -->
+        <!--        <link href="../jquery-2.1.3/ui/jquery-ui.css" rel="stylesheet" />-->
+
+        <link href="../jquery/ui/themes/perso_fuschia/jquery-ui.css" rel="stylesheet" />
+        <link href="../jquery/ui/themes/perso_fuschia/jquery-ui.theme.css" rel="stylesheet" />
+
+        <link href="../css/main.css" type="text/css" rel="stylesheet" media='screen'>
+    </head>
+
+    <body>
+        <header id="entete">
+            <h1>jQuery TP</h1>
+        </header>
+
+        <nav id="sommaire">
+        </nav>
+
+        <section id="centre">
+            <article>
+                <h1>Catalogue</h1>
+
+                <div id="onglets">
+                    <ul>
+                        <li><a href="#livres">Livres</a></li>
+                        <li><a href="#dvd">DVD</a></li>
+                        <li><a href="#cd">CD</a></li>
+                    </ul>
+                    <div id="livres">
+                        <div id="accordeon">
+                            <div class="soufflet">
+                                <h5><a href="#">Romans</a></h5>
+                                <div class="contenuSoufflet" id="souffletLitterature">
+                                    <img src="../images/litterature/le_cote_de_guermantes.jpg" alt="Guermantes" height="100" />
+                                    <img src="../images/litterature/cul_de_sac.jpg" alt="Cul de sac" height="100"/>
+                                    <img src="../images/litterature/l_insoutenable.jpg" alt="L'insoutenable" height="100" />
+                                </div>
+                            </div> <!-- FIN DU SOUFFLET -->
+                            <div class="soufflet">
+                                <h5><a href="#">Essais</a></h5>
+                                <div class="contenuSoufflet" id="souffletEssais">
+                                    <img src="../images/litterature/droit_constitutionnel.jpg" alt="Droit constitutionnel" height="100" />
+                                    <img src="../images/litterature/macro_economie.jpg" alt="Macro Economie" height="100" />
+                                    <img src="../images/litterature/mercator.jpg" alt="Mercator" height="100" />
+                                </div>
+                            </div> <!-- FIN DU SOUFFLET -->
+                        </div> <!-- FIN ACCORDEON -->
+                    </div> <!-- FIN DE LA PAGE 1 D'ONGLET -->
+                    <div id="dvd">
+                        <img src="../images/cinema/invictus.jpg" alt="Invictus" />
+                        <img src="../images/cinema/tete_de_turc.jpg" alt="Tete de turc" />
+                        <img src="../images/cinema/la_revelation.jpg" alt="La révélation" />
+                    </div>
+                    <div id="cd">
+                        <img src="../images/musique/dutronc.jpg" alt="Dutronc" height="130" />
+                        <img src="../images/musique/f_hardy.jpg" alt="Françoise Hardy" height="130" />
+                        <img src="../images/musique/U2.jpg" alt="U2" height="130" />
+                    </div>
+                </div> <!-- FIN DE LA DIV ONGLETS -->
+
+                <button type="button" id="btImprimer" >
+                    <img src="../images/imprimante.png" alt="Imprimante" width="50" id="imgImprimante"/>
+                </button>
+                
+                <p id="pResultat"></p>
+                <label id="lblMsg"></label>
+            </article>
+        </section>
+
+        <aside id="aside">
+        </aside>
+
+        <footer id="pied">
+            <label id="lblFooter">A Paris nous sommes le 21 décembre 2012 et il est 21 heures 12</label>
+        </footer>
+
+        <!-- Les liens JQ -->
+        <script src="../jquery-2.1.3/jquery-2.1.3.js"></script>
+        <script src="../jquery-2.1.3/ui/jquery-ui.js"></script>        
+
+        <!-- Le JS specifique -->
+        <script src="../js/General.js"></script>
+        <script src="../js/Catalogue.js"></script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+utilisateurs.xml
+-->
+<root>
+    <utilisateur id="1" nom="Tintin" prenom="Reporter" email="tintin@free.fr" mdp="mdp123" />
+    <utilisateur id="2" nom="Milou" prenom="Chien" email="milou@gmail.com" mdp="mdp123" />
+</root>

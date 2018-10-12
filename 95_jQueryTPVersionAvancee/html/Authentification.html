@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Authentification.html
+-->
+<html>
+    <head>
+        <title>Authentification</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="../css/main.css" media='screen'>
+        <link type="text/css" rel="stylesheet" href="../css/authentification.css" media='screen'>
+    </head>
+
+    <body>
+        <header id="entete">
+            <h1>jQuery TP</h1>
+        </header>
+
+        <nav id="sommaire">
+        </nav>
+
+        <section id="centre">
+            <article>
+                <!--                <h1>Authentification</h1>-->
+
+                <fieldset>
+                    <legend>Authentification</legend>
+                    <form action="" method="POST">
+
+                        <p>
+                            <label for="pseudo" class="etiquette">Pseudo</label>
+                            <input type="text" class="obligatoire" name="pseudo" id="pseudo" value=""/>
+                            <label class="texteRouge">*</label>
+                        </p>
+                        <p>
+                            <label for="mdp" class="etiquette">Mot de passe</label>
+                            <input type="password" class="obligatoire" name="mdp" id="mdp" value=""/>
+                            <label class="texteRouge">*</label>
+                        </p>
+
+                        <p>
+                            <label for="chkMdpVisible" class="etiquette">Mot de passe visible</label>
+                            <input type="checkbox" name="chkMdpVisible" id="chkMdpVisible" checked="" />
+                        </p>
+
+                        <p>
+                            <label for="chkSeSouvenir" class="etiquette">Se souvenir de moi</label>
+                            <input type="checkbox" name="chkSeSouvenir" id="chkSeSouvenir" />
+                        </p>
+
+                        <p>
+                            <a href ="#" id="motDePasseOublie">Mot de passe oublié ?</a>
+                        </p>
+
+                        <p id="pButtons">
+                            <button type="reset" name='btReinitialiser' id='btReinitialiser' value="R&eacute;initialiser">
+                                R&eacute;initialiser
+                            </button>
+                            <button type="button" name='btValider' id='btValider'>
+                                Valider
+                            </button>
+                        </p>
+                    </form>
+                </fieldset>
+
+                <label id="lblMessage" class="texteOrange">Message</label>
+
+                <br><br>
+            </article>
+        </section>
+
+        <aside id="aside">           
+        </aside>
+
+        <footer id="pied">
+            <label id="lblFooter">A Paris nous sommes le 21 décembre 2012 et il est 21 heures 12</label>
+        </footer>
+
+        <script src="../jquery/jquery.js"></script>
+        <script src="../js/General.js"></script>
+        <script src="../js/Authentification.js"></script>
+
+    </body>
+</html>

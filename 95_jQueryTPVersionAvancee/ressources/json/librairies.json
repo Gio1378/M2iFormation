@@ -1,0 +1,51 @@
+[{
+	"idlibrairie": "42",
+	"raisonsociale": "Nation Diffusion",
+	"pays": "France",
+	"cp": "75011",
+	"ville": "Paris",
+	"adresse": "307 Rue Du Faubourg Saint-Antoine",
+	"idcategorie": "3",
+	"latitude": "48.8490067",
+	"longitude": "2.39262680000002"
+}, {
+	"idlibrairie": "48",
+	"raisonsociale": "Page 189",
+	"pays": "France",
+	"cp": "75011",
+	"ville": "Paris",
+	"adresse": "189 Rue Du Faubourg Saint-antoine",
+	"idcategorie": "3",
+	"latitude": "48.8505184",
+	"longitude": "2.3817123"
+}, {
+	"idlibrairie": "49",
+	"raisonsociale": "L arbre a Lettres",
+	"pays": "France",
+	"cp": "75012",
+	"ville": "Paris",
+	"adresse": "62 Rue Du Faubourg Saint-antoine",
+	"idcategorie": "3",
+	"latitude": "48.8518762",
+	"longitude": "2.37345719999996"
+}, {
+	"idlibrairie": "50",
+	"raisonsociale": "La Griffe Noire",
+	"pays": "France",
+	"cp": "94100",
+	"ville": "Saint-maur-des-fosses",
+	"adresse": "2 Rue La Varenne",
+	"idcategorie": "3",
+	"latitude": "48.8095657",
+	"longitude": "2.47142689999998"
+}, {
+	"idlibrairie": "51",
+	"raisonsociale": "Librairie Joyen",
+	"pays": "France",
+	"cp": "94000",
+	"ville": "Creteil",
+	"adresse": "74 Bis Rue General Leclerc",
+	"idcategorie": "3",
+	"latitude": "48.7900794",
+	"longitude": "2.46552859999997"
+}]

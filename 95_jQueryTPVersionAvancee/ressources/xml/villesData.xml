@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- villesData.xml -->
+<villes>
+  <ville cp="13000" nom_ville="Marseille" id_pays="33" nom_pays="France"/>
+  <ville cp="33000" nom_ville="Bordeaux" id_pays="33" nom_pays="France"/>
+  <ville cp="59000" nom_ville="Lille" id_pays="33" nom_pays="France"/>
+  <ville cp="75011" nom_ville="Paris XI" id_pays="33" nom_pays="France"/>
+  <ville cp="75012" nom_ville="Paris XII" id_pays="33" nom_pays="France"/>
+  <ville cp="99100" nom_ville="Rome" id_pays="39" nom_pays="Italie"/>
+  <ville cp="99101" nom_ville="Milan" id_pays="39" nom_pays="Italie"/>
+  <ville cp="99200" nom_ville="Madrid" id_pays="34" nom_pays="Espagne"/>
+  <ville cp="99201" nom_ville="Barcelone" id_pays="34" nom_pays="Espagne"/>
+</villes>

@@ -1,0 +1,18 @@
+JavaScript
+
+Accueil : PUB - Fausse popup
+Authentification : controle formulaire
+Inscription: controle formulaire ++
+L'album du jour : diaporama
+Localisation : Google maps
+Tous : setInterval, Date, ...
+
+
+
+jQuery
+
+
+XML
+Ajax POST
+Ajax GET
+

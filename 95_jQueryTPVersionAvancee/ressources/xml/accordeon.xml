@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- accordeon.xml -->
+<root>
+    <soufflet>
+        <titre>Cinema</titre>
+        <contenu>
+            <valeur>Sean Penn</valeur>
+            <valeur>Charlotte Gainsbourg</valeur>
+            <valeur>Penelope Cruz</valeur>
+        </contenu>
+    </soufflet>
+    <soufflet>
+        <titre>Theatre</titre>
+        <contenu>
+            <valeur>L'avare</valeur>
+            <valeur>Andromaque</valeur>
+            <valeur>Le cid</valeur>
+        </contenu>
+    </soufflet>
+    <soufflet>
+        <titre>Litterature</titre>
+        <contenu>
+            <valeur>Flaubert</valeur>
+            <valeur>Zola</valeur>
+            <valeur>Balzac</valeur>
+        </contenu>
+    </soufflet>
+</root>

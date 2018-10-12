@@ -1,0 +1,49 @@
+/*
+    main.css
+*/
+
+*{margin:0; padding:0;}
+
+html{background-color: silver;}
+
+body{width: 100%; height: 600px; margin: 0% auto; background-color: white;}
+
+h1{padding: 1%;}
+h2{padding-top: 1%; padding-bottom: 1%;}
+h3{padding-left: 1%; text-align: center; padding-top: 1%; padding-bottom: 1%;}
+
+a{text-align: center; color: dimgray;}
+a:hover{text-align: center; color: dimgray;}
+
+#entete{border: 0px solid black; width: 100%; height: 10%; background-color: black; color: white; padding-left: 1%; padding-top: 1%; padding-bottom: 1%;}
+#sommaire{border: 0px solid black; width: 100%; height: 5%; background-color: silver; color:dimgray; padding-left: 1%;}
+#centre{border-right: 0px solid black; width: 78%; height: 80%; overflow: auto; padding-left: 1%; float: left;}
+#aside{width: 20%; height: 80%; overflow: auto; padding-left: 1%; float: left; background-color: dimgray; color: white;}
+#pied{clear: both; border: 0px solid black; width: 100%; height: 5%; background-color: #666; color: white; padding-left: 1%;}
+
+nav#sommaire ul{list-style: none;}
+nav#sommaire ul li{float: left; padding: 3px;}
+nav#sommaire ul li a{color: white; text-decoration: none;}
+nav#sommaire ul li a:hover{color: white; text-decoration: underline;}
+
+aside#aside ul{list-style: none; text-align: center; padding-top: 5%; padding-bottom: 5%;}
+aside#aside ul li a{color: dimgray; text-decoration: none; padding: 1%;}
+aside#aside ul li a:hover{color: black; text-decoration: underline;}
+
+button#btImprimer{padding:0; border:0;}
+#imgImprimante{padding:0; border:0;}
+
+legend{padding: 1%;}
+fieldset{padding: 1%; margin: 1%;}
+form{padding: 1%;}
+button{padding: 1%;}
+
+.texteRouge{color: red;}
+.texteVert{color: yellowgreen;}
+.texteFushia{color: fuchsia;}
+.texteOrange{color: darkorange;}
+.etiquette{display: inline-block; width: 200px; padding: 1%;}
+
+#divMap{width: 800px; height: 400px; border: 1px solid black;}
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+Panier.html
+-->
+<html>
+    <head>
+        <title>Panier</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="../jquery-2.1.3/ui/jquery-ui.css" rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="../css/main.css" media='screen'>
+        <link type="text/css" rel="stylesheet" href="../css/panier.css" media='screen'>
+    </head>
+
+    <body>
+        <header id="entete">
+            <h1>jQuery TP</h1>
+        </header>
+
+        <nav id="sommaire">
+        </nav>
+
+        <section id="centre">
+            <article>
+                <h1>Catalogue et Panier</h1>
+                <div id="catalogue">
+                    <table>
+                        <thead>
+                            <!--                            <tr>
+                                                            <th>ID</th>
+                                                            <th>D&eacute;signation</th>
+                                                            <th>Photo</th>
+                                                        </tr>-->
+                        </thead>
+                        <tbody id="tBodyCatalogue">
+                            <tr>
+                                <!--                                <td>1</td>-->
+                                <td>A l'ombre ...</td>
+                                <td><img src="../images/litterature/a_l_ombre.jpg" alt="Bouquin" title="a_l_ombre" width="50" class="dropAutorise" /></td>
+                            </tr>
+                            <tr>
+                                <!--                                <td>2</td>-->
+                                <td>99 F</td>
+                                <td><img src="../images/litterature/99F.jpg" alt="Bouquin" title="99F" width="50" class="dropAutorise" /></td>
+                            </tr>
+                            <tr>
+                                <!--                                <td>3</td>-->
+                                <td>Au bonheur des dames</td>
+                                <td><img src="../images/litterature/au_bonheur_des_dames.jpg" alt="Bouquin" title="au_bonheur_des_dames" width="50" class="dropAutorise" /></td>
+                            </tr>
+                            <tr>
+                                <!--                                <td>4</td>-->
+                                <td>Cul de sac</td>
+                                <td><img src="../images/litterature/cul_de_sac.jpg" alt="Bouquin" title="cul_de_sac" width="50" class="dropAutorise" /></td>
+                            </tr>
+                            <tr>
+                                <!--                                <td>5</td>-->
+                                <td>Albertine disparue</td>
+                                <td><img src="../images/litterature/albertine_disparue.jpg" alt="Bouquin" title="albertine_disparue" width="50" class="dropAutorise"/></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="panier">
+                    <img id="imgPanier" src="../images/panier_vert.png" alt="Panier" title="Panier" />
+                    <br><br>
+
+                    <button type="button" id="btVoirLePanier" class="buttonRondVert">
+                        Voir <br>le panier
+                    </button>
+
+                    <br><br>
+                    <button type="button" id="btViderLePanier" class="buttonRondRouge">
+                        Vider <br>le panier
+                    </button>
+                </div>
+
+                <div id="divContenuDuPanier">
+                    <h5 id="titreContenuDuPanier">Votre panier</h5>
+                    <div id="contenuDuPanier"></div>
+                </div>
+
+                <br class='nettoyeur'>
+            </article>
+        </section>
+
+        <aside id="aside"></aside>
+
+        <footer id="pied">
+            <label id="lblFooter">A Paris nous sommes le 21 décembre 2012 et il est 21 heures 12</label>
+        </footer>
+
+        <script src="../jquery-2.1.3/jquery-2.1.3.js"></script>
+        <script src="../jquery-2.1.3/ui/jquery-ui.js"></script>
+        <script src="../jquery-2.1.3/PICookies/jquery.cookie.js"></script>
+        <script src="../js/General.js"></script>
+        <script src="../js/Panier.js"></script>
+
+    </body>
+
+</html>

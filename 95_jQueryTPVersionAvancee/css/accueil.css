@@ -1,0 +1,22 @@
+/* 
+    accueil.css
+*/
+*{ margin:0; padding:0; }
+body{ background-color:black; color:white; }
+#surgissante
+{
+    display:block; position:absolute;
+    left:10px; top:200px; width:450px; height:300px;
+    color:white; background-color:black;
+    border-style:ridge; border-width:5px;
+}
+#titreSurgissante{ height:20px; padding:2px; }
+#croixSurgissante{ padding:2px; float:right; background-color:red; color:white; cursor:pointer; font-weight:bold; }
+#photo{ width:440px; height:270px; margin-left:5px; margin-right:5px; }
+
+.textes{font-weight:bold; font-size:large; color:white; position:relative; margin:0; padding:0; z-index:20;}
+#promotion{position:absolute; left:450px; top:400px;}
+#dates{position:absolute; left:500px; top:0px;}
+#slogan{position:absolute; left:550px; top:0px;}
+#imgAccueil{display:none; z-index:10;}
+#centre{background-color:#000; overflow:hidden;}

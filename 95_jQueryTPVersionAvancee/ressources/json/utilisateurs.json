@@ -1,0 +1,34 @@
+[{
+        "id": "1",
+        "pseudo": "p",
+        "nom": "b",
+        "prenom": "p",
+        "email": "pb@free.fr",
+        "mdp": "b",
+        "qualite": "BO"
+    }, {
+        "id": "2",
+        "pseudo": "a",
+        "nom": "f",
+        "prenom": "a",
+        "email": "af@free.fr",
+        "mdp": "f",
+        "qualite": "FO"
+    }, {
+        "id": "3",
+        "pseudo": "Tintin",
+        "nom": "Tintin",
+        "prenom": "Reporter",
+        "email": "tintin@free.fr",
+        "mdp": "mdp123",
+        "qualite": "FO"
+    }, {
+        "id": "4",
+        "pseudo": "Milou",
+        "nom": "Milou",
+        "prenom": "Chien",
+        "email": "milou@gmail.com",
+        "mdp": "mdp123",
+        "qualite": "FO"
+    }
+]

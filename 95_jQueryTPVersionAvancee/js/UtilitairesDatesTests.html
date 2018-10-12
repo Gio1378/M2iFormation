@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+UtilitairesDatesTests.html
+-->
+<html>
+    <head>
+        <title>UtilitairesDatesTests</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div>
+            <label id="resultat"></label>
+        </div>
+        <script src="UtilitairesDates.js"></script>
+        <script>
+            var lsResultat = "";
+
+            lsResultat += dateTimeUS2DateUS("2015-1-9 5:20:30");
+            lsResultat += "<br>";
+
+            lsResultat += dateUS2DateFR("2015-1-9");
+            lsResultat += "<br>";
+            
+            lsResultat += dateFR2DateFREnLettres("9/1/2015");
+            lsResultat += "<br>";
+            
+            lsResultat += dateFR2DateFREnToutesLettres("9/1/2015");
+            lsResultat += "<br>";
+            
+            lsResultat += dateTimeFR2DateTimeUS("9/1/2015 12:21:03");
+            lsResultat += "<br>";
+            
+            lsResultat += dateTimeUS2DateTimeFR("2015-01-11 12:21:03");
+            lsResultat += "<br>";
+
+            document.getElementById("resultat").innerHTML = lsResultat;
+        </script>
+    </body>
+</html>

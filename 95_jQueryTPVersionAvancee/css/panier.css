@@ -1,0 +1,43 @@
+/* 
+    panier.css
+*/
+
+/*article{background-color: black; color:white;}*/
+
+table{border-collapse: collapse;}
+caption, th, td{border: 0px solid black;}
+td, th{padding: 5px;}
+
+#catalogue{float: left;}
+
+#panier{float: left; margin-left: 1em;}
+#titreContenuDuPanier{margin-left: 1em;}
+#divContenuDuPanier{float: left; border: 0px solid black; width: 300px; height: 200px; margin-left: 1em;}
+#contenuDuPanier{width: 300px; height: 200px;}
+
+.nettoyeur{clear: both;}
+
+.auDessus{background-color: greenyellow; color: white;}
+
+.buttonRondVert
+{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 35px;
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+}
+
+.buttonRondRouge
+{
+    background-color: red;
+    border: none;
+    border-radius: 35px;
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+    color: white;
+}
+
+/*.imagePanier{position: relative;}*/

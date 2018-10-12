@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- villesDocument.xml -->
+<villes>
+  <ville>
+    <cp>75000</cp>
+    <nom_ville>Paris</nom_ville>
+    <id_pays>033</id_pays>
+    <nom_pays>France</nom_pays>
+  </ville>
+  <ville>
+    <cp>69000</cp>
+    <nom_ville>Lyon</nom_ville>
+    <id_pays>033</id_pays>
+    <nom_pays>France</nom_pays>
+  </ville>
+  <ville>
+    <cp>14200</cp>
+    <nom_ville>Cabourg</nom_ville>
+    <id_pays>033</id_pays>
+    <nom_pays>France</nom_pays>
+  </ville>
+  <ville>
+    <cp>14000</cp>
+    <nom_ville>Caen</nom_ville>
+    <id_pays>033</id_pays>
+    <nom_pays>France</nom_pays>
+  </ville>
+  <ville>
+    <cp>99100</cp>
+    <nom_ville>Rome</nom_ville>
+    <id_pays>039</id_pays>
+    <nom_pays>Italie</nom_pays>
+  </ville>
+  <ville>
+    <cp>99101</cp>
+    <nom_ville>Turin</nom_ville>
+    <id_pays>039</id_pays>
+    <nom_pays>Italie</nom_pays>
+  </ville>
+  <ville>
+    <cp>99200</cp>
+    <nom_ville>Madrid</nom_ville>
+    <id_pays>034</id_pays>
+    <nom_pays>Espagne</nom_pays>
+  </ville>
+  <ville>
+    <cp>99201</cp>
+    <nom_ville>Barcelone</nom_ville>
+    <id_pays>034</id_pays>
+    <nom_pays>Espagne</nom_pays>
+  </ville>
+</villes>

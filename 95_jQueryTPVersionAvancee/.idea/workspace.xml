@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8508eba7-3e77-4059-ab17-6e34a302872b" name="Default Changelist" comment="Initialisation of project M2iFormation">
+      <change afterPath="$PROJECT_DIR$/.idea/95_jQueryTPVersionAvancee.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PICreation/jqpi1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PICreation/jqpi1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PICreation/jqpi2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PICreation/jqpi2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/bd.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/bd_distante.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/bd_locale.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controls/AuthentificationCTRL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controls/CatalogueCTRL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controls/InscriptionCTRL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controls/VillesCTRL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/accueil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/authentification.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/panier.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/selections.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/Connexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/ConnexionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/ProduitsDAO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/Transaxion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/TransaxionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/UtilisateursDAO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/VillesDAO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/bogues.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/documentation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Administrateur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Cdes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Clients.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Ligcdes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Pays.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Produits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Utilisateurs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Villes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Accueil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Authentification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Boutiques.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Catalogue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Inscription.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/MODELE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Panier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Selections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amira_casar_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amira_casar_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amira_casar_2014_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amira_casar_2014_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amira_casar_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amira_casar_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amira_casar_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amira_casar_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/badoit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/caddie_grand_taille.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/caddie_gris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cinema/invictus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cinema/la_revelation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cinema/tete_de_turc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/coca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/coca_cola_capsule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/coca_zero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/coke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cremant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/demi_moore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/directory_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/evian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/graves.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/imprimante.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/julia_roberts_robe_noire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/las_vegas_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/99F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/a_l_ombre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/accueil.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/albertine_disparue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/au_bonheur_des_dames.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/beauvoir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/beigbeder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/camus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/catalogue.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/coke_en_stock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/cul_de_sac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/douglas_kennedy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/droit_constitutionnel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/du_cote_de_chez_swann.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/flaubert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/gallimard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/goncourt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/guy_breton.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/journal_goncourt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/kundera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/l_amour_du_noir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/l_etoile_mysterieuse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/l_homme_qui_voulait_vivre_sa_vie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/l_insoutenable.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/la_poursuite_du_bonheur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/las_vegas_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/le_cote_de_guermantes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/le_lotus_bleu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/le_sceptre_d_ottokar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/le_temple_du_soleil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/le_tresor_de_rackham_le_rouge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/les_7_boules_de_cristal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/les_cigares_du_pharaon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/les_desarrois_de_ned_allen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/livres_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/livres_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/livres_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/livres_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/livres_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/livres_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/livres_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/macro_economie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/maupassant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/mercator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/oeuvres_politiques.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/on_a_marche_sur_la_lune.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/proust.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/rien_ne_va_plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/risibles_amours.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/sartre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/tintin_au_congo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/tintin_au_tibet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/un_amour_de_swann.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/van_cauwelaert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/litterature/zola.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo_google.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/musique/U2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/musique/dutronc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/musique/f_hardy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panier_grand_taille.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panier_vert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/picpoul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/piquemal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rene_russo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ruinart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vichy_celestins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vous_etes_ici_noir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PICarouselLight/jquery.jcarousellite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PICookies/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PISlideShow/slideshow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PISlideShow/slideshow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_es_AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_es_AR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_my.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_pt_BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_pt_PT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_si.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sr_lat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sr_lat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_tj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_tj.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/messages_zh_TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_es_CL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/PIValidate/localization/methods_pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/jquery-2.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/i18n/jquery-ui-i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-2.1.3/ui/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jquery-2.0.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/jquery.ui.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/jquery.ui.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/jquery.ui.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/base/jquery.ui.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/perso_fuschia/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/perso_fuschia/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/perso_fuschia/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/perso_fuschia/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/perso_fuschia/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/perso_fuschia/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/perso_fuschia/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/ui/themes/perso_fuschia/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Accueil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Authentification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Boutiques.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Catalogue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ControlesER.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ERDiverses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/General.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Inscription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ModeleFormulaireJQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ModeleJQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Panier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Selections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Utilitaires.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/UtilitairesChaines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/UtilitairesDates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/UtilitairesDatesTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/phpcsmd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/AuthentificationJQ.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/AuthentificationJSON.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/ConnexionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/GetVilles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/InscriptionJSON.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/InscriptionSQL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/WebServices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/___ini/bd.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/___ini/cours.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/___ini/diaporama.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/json/catalogue.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/json/hobbies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/json/librairies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/json/utilisateurs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/json/ville.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/json/villes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/AuthentificationJQ.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/Diaporama_create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/InscriptionJQ.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/PaysSelect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/VillesDUnPays.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/VillesDUnPaysEnJSON.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/VillesDelete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/VillesSelect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/bd_ajax_create_insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/gtCreateInserts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/gtSelect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/sql/gtSize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/xml/accordeon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/xml/librairies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/xml/utilisateurs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/xml/villesData.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/xml/villesDocument.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1019993299">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="1" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="sql" value="2" />
+          <entry key="txt" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="SQL" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/___index.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ressources/sql/bd_ajax_create_insert.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ressources/sql/bd_ajax_create_insert.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="95_jQueryTPVersionAvancee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="95_jQueryTPVersionAvancee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="95_jQueryTPVersionAvancee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="95_jQueryTPVersionAvancee" type="462c0819:PsiDirectoryNode" />
+              <item name="nbproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="95_jQueryTPVersionAvancee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="95_jQueryTPVersionAvancee" type="462c0819:PsiDirectoryNode" />
+              <item name="nbproject" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="95_jQueryTPVersionAvancee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="95_jQueryTPVersionAvancee" type="462c0819:PsiDirectoryNode" />
+              <item name="ressources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="95_jQueryTPVersionAvancee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="95_jQueryTPVersionAvancee" type="462c0819:PsiDirectoryNode" />
+              <item name="ressources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="95_jQueryTPVersionAvancee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="95_jQueryTPVersionAvancee" type="462c0819:PsiDirectoryNode" />
+              <item name="ressources" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8508eba7-3e77-4059-ab17-6e34a302872b" name="Default Changelist" comment="" />
+      <created>1534440098914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534440098914</updated>
+      <workItem from="1534440100058" duration="1027000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1027000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1014" height="1050" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24948025" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" visible="true" weight="0.3298647" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialisation of project M2iFormation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialisation of project M2iFormation" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nbproject/private/private.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbproject/private/phpcsmd.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/___index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ressources/sql/bd_ajax_create_insert.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

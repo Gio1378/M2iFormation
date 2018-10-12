@@ -1,0 +1,68 @@
+[
+    {
+        "categorie": "livres",
+        "titre": "Cul de sac",
+        "auteur": "Douglas Kennedy",
+        "image": "cul_de_sac.jpg"
+    },
+    {
+        "categorie": "livres",
+        "titre": "99 Francs",
+        "auteur": "Frédérique Beigbeder",
+        "image": "99F.jpg"
+    },
+    {
+        "categorie": "livres",
+        "titre": "Albertine disparue",
+        "auteur": "Marcel Proust",
+        "image": "albertine_disparue.jpg"
+    },
+    {
+        "categorie": "livres",
+        "titre": "Au bonheur des dames",
+        "auteur": "Emile Zola",
+        "image": "au_bonheur_des_dames.jpg"
+    },
+    {
+        "categorie": "livres",
+        "titre": "Risibles amours",
+        "auteur": "Milan Kundera",
+        "image": "risibles_amours.jpg"
+    },
+    {
+        "categorie": "musiques",
+        "titre": "Sunday Bloody Sunday",
+        "auteur": "U2",
+        "image": "U2.jpg"
+    },
+    {
+        "categorie": "musiques",
+        "titre": "J'aime les filles",
+        "auteur": "Jacques Dutronc",
+        "image": "dutronc.jpg"
+    },
+    {
+        "categorie": "musiques",
+        "titre": "Le large",
+        "auteur": "Françoise Hardy",
+        "image": "f_hardy.jpg"
+    },
+    {
+        "categorie": "films",
+        "titre": "Invictus",
+        "auteur": "Clint Eastwood",
+        "image": "invictus.jpg"
+    },
+    {
+        "categorie": "films",
+        "titre": "La révélation",
+        "auteur": "Jacques Dutronc",
+        "image": "la_revelation.jpg"
+    },
+    {
+        "categorie": "films",
+        "titre": "Tête de turc",
+        "auteur": "Pascal Elbé",
+        "image": "tete_de_turc.jpg"
+    }
+]
